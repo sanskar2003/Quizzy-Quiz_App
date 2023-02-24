@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".chem_QueS"
+    android:background="@drawable/bg">
+
+    <LinearLayout
+        android:layout_width="348dp"
+        android:layout_height="692dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.63">
+
+        <TextView
+            android:id="@+id/question"
+            android:layout_width="match_parent"
+            android:layout_height="186dp"
+            android:layout_marginBottom="5sp"
+            android:gravity="center"
+            android:paddingStart="3sp"
+            android:paddingEnd="3sp"
+            android:text="Question"
+            android:textColor="@color/question_text"
+            android:textSize="26sp" />
+
+        <ImageView
+            android:id="@+id/que_image"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginBottom="7sp"
+            app:srcCompat="@drawable/phyque1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="18sp"
+            android:layout_marginEnd="18sp"
+            android:layout_marginBottom="10sp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="230dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:color="#000000"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/progressText"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="0/10"
+                android:textColor="@color/question_text" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/option1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="10sp"
+            android:layout_marginEnd="10sp"
+            android:layout_marginBottom="10sp"
+            android:gravity="center"
+            android:text="option1"
+            android:textColor="@color/question_text"
+            android:textSize="25sp"
+            android:background="@drawable/text_border"/>
+
+        <TextView
+            android:id="@+id/option2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="10sp"
+            android:layout_marginEnd="10sp"
+            android:layout_marginBottom="10sp"
+            android:gravity="center"
+            android:text="option2"
+            android:textColor="@color/question_text"
+            android:textSize="25sp"
+            android:background="@drawable/text_border"/>
+
+        <TextView
+            android:id="@+id/option3"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="10sp"
+            android:layout_marginEnd="10sp"
+            android:layout_marginBottom="10sp"
+            android:gravity="center"
+            android:text="option3"
+            android:textColor="@color/question_text"
+            android:textSize="25sp"
+            android:background="@drawable/text_border"/>
+
+        <TextView
+            android:id="@+id/option4"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="10sp"
+            android:layout_marginEnd="10sp"
+            android:layout_marginBottom="10sp"
+            android:gravity="center"
+            android:text="option4"
+            android:textColor="@color/question_text"
+            android:textSize="25sp"
+            android:background="@drawable/text_border"/>
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginStart="10sp"
+            android:layout_marginEnd="10sp"
+            android:backgroundTint="@color/button_background_color"
+            android:text="Submit"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            app:cornerRadius="8sp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android Studio Applications/MyQuizApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Android Studio Applications/MyQuizApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Android Studio Applications/MyQuizApp/app/src/main/res/drawable/image_border.xml" value="0.1" />
+        <entry key="..\:/Android Studio Applications/MyQuizApp/app/src/main/res/drawable/radius.xml" value="0.209" />
+        <entry key="..\:/Android Studio Applications/MyQuizApp/app/src/main/res/drawable/selected_text_border.xml" value="0.23" />
+        <entry key="..\:/Android Studio Applications/MyQuizApp/app/src/main/res/drawable/text_border.xml" value="0.1" />
+        <entry key="..\:/Android Studio Applications/MyQuizApp/app/src/main/res/drawable/topics_view.xml" value="0.188" />
+        <entry key="..\:/Android Studio Applications/MyQuizApp/app/src/main/res/layout-v31/activity_topics.xml" value="0.2" />
+        <entry key="..\:/Android Studio Applications/MyQuizApp/app/src/main/res/layout/activity_chem_ques.xml" value="0.1838768115942029" />
+        <entry key="..\:/Android Studio Applications/MyQuizApp/app/src/main/res/layout/activity_gk_ques.xml" value="0.19655797101449277" />
+        <entry key="..\:/Android Studio Applications/MyQuizApp/app/src/main/res/layout/activity_grammar_ques.xml" value="0.19655797101449277" />
+        <entry key="..\:/Android Studio Applications/MyQuizApp/app/src/main/res/layout/activity_main.xml" value="0.176" />
+        <entry key="..\:/Android Studio Applications/MyQuizApp/app/src/main/res/layout/activity_maths_ques.xml" value="0.19655797101449277" />
+        <entry key="..\:/Android Studio Applications/MyQuizApp/app/src/main/res/layout/activity_phy_que_s.xml" value="0.17391304347826086" />
+        <entry key="..\:/Android Studio Applications/MyQuizApp/app/src/main/res/layout/activity_phy_ques.xml" value="0.1" />
+        <entry key="..\:/Android Studio Applications/MyQuizApp/app/src/main/res/layout/activity_result.xml" value="0.176" />
+        <entry key="..\:/Android Studio Applications/MyQuizApp/app/src/main/res/layout/activity_ss_ques.xml" value="0.19655797101449277" />
+        <entry key="..\:/Android Studio Applications/MyQuizApp/app/src/main/res/layout/activity_topics.xml" value="0.2" />
+        <entry key="..\:/Android Studio Applications/MyQuizApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myquizapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/quizzy_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/quizzy_icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar">
+        <activity
+            android:name=".grammar_QueS"
+            android:exported="false" />
+        <activity
+            android:name=".ss_QueS"
+            android:exported="false" />
+        <activity
+            android:name=".gk_QueS"
+            android:exported="false" />
+        <activity
+            android:name=".maths_QueS"
+            android:exported="false" />
+        <activity
+            android:name=".chem_QueS"
+            android:exported="false" />
+        <activity
+            android:name=".result"
+            android:exported="false" />
+        <activity
+            android:name=".phy_QueS"
+            android:exported="false" />
+        <activity
+            android:name=".Topics"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
