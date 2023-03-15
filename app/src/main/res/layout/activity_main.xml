@@ -71,6 +71,7 @@
                 android:layout_height="62dp"
                 android:ems="10"
                 android:hint="Name"
+                android:textColorHint="#C2C2C2"
                 android:inputType="textPersonName"
                 android:textColor="#FFFFFF"
                 tools:ignore="HardcodedText" />
